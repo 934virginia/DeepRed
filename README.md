@@ -6,7 +6,7 @@ DeepRed is an autonomous neural network training and execution pipeline for algo
 This is prototype code built as a proof of concept, and is intended for educational purposes only, and IS NOT INTENDED FOR USE, CONSULTATION, OR CONSIDERATION WITH REAL MONETARY ASSETS AT STAKE. IF DEPLOYED, THIS SOFTWARE CAN AND WILL LOSE MONEY. BY DOWNLOADING THIS CODE, THE USER AGREES THAT THE AUTHORS AND ALL AFFILIATES ARE NOT LEGALLY RESPONSIBLE FOR ANY DAMAGES, MONETARY OR OTHERWISE, SUSTAINED THROUGH THE IMPLEMENTATION OR MODIFICATION OF THIS CODE. For more information, please review the LICENSE file included in this repository.
 
 ## Attribution
-The base Transformer model and various chunks of preprocessing code were based on/modified from a Kaggle Project by Shujian titled "Transformer with LSTM" (https://www.kaggle.com/shujian/transformer-with-lstm). Several class functions interfacing with teh REST API are modified directly from example functions included with OandA's REST-V20 API Samples repository (https://github.com/oanda/v20-python-samples).
+The base Transformer model and various chunks of preprocessing code were based on/modified from a Kaggle Project by Shujian titled "Transformer with LSTM" (https://www.kaggle.com/shujian/transformer-with-lstm). Several class functions are modified directly from example functions included with OandA's REST-V20 API Samples repository (https://github.com/oanda/v20-python-samples).
 
 ## Basic Explanation
 The entirety of the trading bot's functionality is automated through a single execution script, that is scheduled to run every minute as a Cron job.
