@@ -34,6 +34,6 @@ Note: This repository intentionally does not include configuration scripts or an
 
 -A lot of the static hyperparameters probably seem arbitrary. Things like batch size, total epochs, and preceeding sequence length were optimized for the default prediction length and currency pair through the use of a massive grid search. There are definitely smarter ways to do this, especially when all the training took place on a GTX 940M.
 
--In the end, the validation MSE tended to be in the lower range of Xe-5 after a 50 epoch training schedule, and uncommonly ended up cracking Xe-6. Considering that a lot of similar models at the time were more or less confined to the Xe-4 range for N+1 predictions (on sigmoidal activation, no less) and mine was N+5 (linear), I'm not mad about that. However, the reduced range of my training data resulting from the smaller time frame probably gave me this model a serious advantage in that regard.
+-In the end, the validation MSE tended to be in the lower range of Xe-5 after a 50 epoch training schedule, and uncommonly ended up cracking Xe-6. Considering that a lot of similar models at the time were more or less confined to the Xe-4 range for N+1 predictions (on sigmoidal activation, no less) and mine was N+5 (linear), I'm not mad about that. However, the reduced range of my training data resulting from the smaller time frame probably gave this model a serious advantage in that regard.
 
 -There's probably a lot more to say about the ML side of this, but this isn't a dev journal. Feel free to reach out with any questions.
